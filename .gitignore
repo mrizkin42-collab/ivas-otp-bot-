@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+.venv/
+
+# Local env files
+.env
+.env.local
+.env.*.local
+
+# App files
+last_seen.json
+
+# IDEs
+.vscode/
+.idea/
