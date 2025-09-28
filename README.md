@@ -33,3 +33,32 @@ This repository contains a production-ready Telegram bot that logs into a virtua
 ```bash
 git clone https://github.com/your-username/ivas-otp-bot.git
 cd ivas-otp-bot
+
+Create & activate a virtual environment (recommended):
+
+python3 -m venv .venv
+source .venv/bin/activate
+
+
+Install Python dependencies:
+
+pip install -r requirements.txt
+
+
+Install Playwright browsers & dependencies:
+
+# Recommended
+playwright install --with-deps
+# Or minimal
+playwright install
+
+Run the bot:
+
+python main.py
+
+
+You should receive a Telegram message:
+✅ Bot Started Successfully. Initializing configuration and web automation environment.
+
+If login is successful:
+🌐 Login Successful! Session established. Starting continuous OTP monitoring loop.
