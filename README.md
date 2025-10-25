@@ -31,7 +31,7 @@ This repository contains a production-ready Telegram bot that logs into a virtua
 ## Setup (local)
 1. Clone:
 ```bash
-git clone https://github.com/mrizkin42-collab/ivas-otp-bot.git
+git clone https://github.com/mrizkin42-collab/ivas-otp-bot
 cd ivas-otp-bot
 
 python3 -m venv .venv
